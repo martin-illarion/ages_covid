@@ -1,4 +1,4 @@
-Datum,Faelle_gesamt,Tote_v1,Genesene,Hospitalisiert,Intensivstation,IBett_frei,HBett_frei
+Datum,Fälle_gesamt,Tote_v1,Genesene,Hospitalisiert,Intensivstation,IBett_frei,HBett_frei
 2020/11/04,132280,1251,66974,2201,383,553,8659
 2020/11/03,126343,1226,65396,2065,366,605,9855
 2020/11/02,120359,1197,63832,1825,336,630,10381
