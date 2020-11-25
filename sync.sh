@@ -12,12 +12,18 @@ readonly COMMIT_MESSAGE="Sync $DATE_STAMP"
 curl $DATA_URL_AGES --output $DATA_ARCHIVE_NAME_AGES --silent
 curl $DATA_URL --output $DATA_ARCHIVE_NAME --silent
 
+echo "[INFO] Done curling."
+
 if test -f "$DATA_ARCHIVE_NAME"; then
+    echo "[INFO] Find Archive."
     unzip -qq $DATA_ARCHIVE_NAME_AGES -d $DATA_PATH_AGES
     unzip -qq $DATA_ARCHIVE_NAME -d $DATA_PATH
+    echo "[INFO] Unzipped."
     rm $DATA_ARCHIVE_NAME_AGES
     rm $DATA_ARCHIVE_NAME
+    echo "[INFO] Removed."
     git add --all >/dev/null
     git commit -am "$COMMIT_MESSAGE" --quiet
     git push origin master --quiet
+    echo "[INFO] Pushed to GitHub."
 fi
