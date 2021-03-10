@@ -8,3 +8,10 @@
 ## Österreichweit
 Neuinfektionen (Inzidenzen) innerhalb der letzten 7 Tage pro 100000 Einwohner jeder Alterskohorte
 ![Alterskohorten-Inzidenz](https://docs.google.com/spreadsheets/d/e/2PACX-1vQQGT3f681Wow0I9JhnKQF6fsOs9fAAMvmcjfVaUssUqqiXJkwSUheE1JXLLC_pzBiOOKEDTmEQVMaK/pubchart?oid=617318911&format=image)
+
+## Bundesländerweise
+
+# Wochenstatistik
+Hier werden die Änderungen in 7-Tages-Schritten dargestellt, um Trends besser erkennen zu können. Die y-Achse ist logarithmisch skaliert.
+
+![Wochenstatistik](https://docs.google.com/spreadsheets/d/e/2PACX-1vQQGT3f681Wow0I9JhnKQF6fsOs9fAAMvmcjfVaUssUqqiXJkwSUheE1JXLLC_pzBiOOKEDTmEQVMaK/pubchart?oid=2073646531&format=image)
